@@ -1,0 +1,138 @@
+    html {
+        margin: 0;
+        padding: 100px 20px;
+    }
+    
+    body {
+        background-color: #dddddd;
+    }
+    
+    .item {
+        border-radius: 5px;
+        padding: 10px;
+        height: 550px;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1px;
+        grid-template-rows: 300px 10px 200px;
+        
+    }
+    
+    .parte1 {
+        background-color: #e38826;
+        grid-area: 1/2/5/3;
+       
+        
+        
+       
+    }
+    
+    .parte2 {
+        background-color: #006970;
+        grid-area: 1/4/12/3;
+       
+        
+    }
+    
+    .parte3 {
+        background-color: #004241;
+        grid-area: 1/4/12/5;
+        
+    }
+    
+    .btn1 {
+        border-radius: 30px;
+        border:none;
+        background-color: #dddddd;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 15px;
+        padding: 6px 10px;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        color: #e38826;
+        margin: 180px 150px;
+    }
+    
+    .btn2 {
+        border-radius: 30px;
+        border: none;
+        background-color: #dddddd;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 15px;
+        padding: 6px 10px;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        color: #006970;
+        margin: 180px 150px;
+        
+    }
+    
+    .btn3 {
+        border-radius: 30px;
+        border:none;
+        background-color: #dddddd;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-size: 15px;
+        padding: 6px 10px;
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        color: #004241;
+        margin: 180px 150px;
+    }
+    
+    
+    .btn1:hover {
+        opacity: 0.5;
+    }
+    
+    .btn2:hover {
+        opacity: 0.5;
+    }
+    
+    .btn3:hover {
+        opacity: 0.5;
+    }
+
+    
+    
+    
+    .text {
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: #dddddd;
+        padding: 10px;
+    }
+
+    .title{
+        font-family: sans-serif;
+        font-size: 50px;
+        text-align: center;
+        color: #dddddd;
+        padding: 10px;
+    }
+    
+
+
+
+
+    /*
+Projeto: Card com 3 Colunas
+Autor: Lirana Brixner
+Início:		25/02/2022
+Conclusão:	27/02/2022
+Estimado:	5 horas
+Tempo:	9 horas
+Versão:	1
+*/
